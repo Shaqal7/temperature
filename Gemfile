@@ -38,7 +38,7 @@ gem 'highcharts', '~> 0.0.3'
 gem 'hightop'
 gem 'active_median'
 gem 'bootstrap-datepicker-rails'
-gem 'whenever', :require => false
+gem 'whenever', :require => false #whenever --update-crontab // crontab -l
 gem 'will_paginate', '>= 3.1'
 
 # Use Capistrano for deployment
