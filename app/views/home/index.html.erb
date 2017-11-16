@@ -9,11 +9,13 @@
     </thead>
     <tbody>
       <% @weathers.each do |weather| %>
-      <td><%= weather.temperature %></td>
-      <td><%= weather.humidity %></td>
-      <td><%= weather.created_at %></td>
-    </tbody>
-    <% end %>
+        <tr>
+          <td><%= weather.temperature %></td>
+          <td><%= weather.humidity %></td>
+          <td><%= weather.created_at.strftime("%Y-%m-%d %k:%M:%S") %></td>
+        </tr>
+        <% end %>
+      </tbody>
   </table>
 </div>
 <%= will_paginate @weathers %>

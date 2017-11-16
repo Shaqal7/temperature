@@ -40,6 +40,7 @@ gem 'active_median'
 gem 'bootstrap-datepicker-rails'
 gem 'whenever', :require => false #whenever --update-crontab // crontab -l
 gem 'will_paginate', '>= 3.1'
+gem 'rails_12factor'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
