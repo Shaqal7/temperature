@@ -1,24 +1,10 @@
-# README
+# Checking temperature and humidity on Raspberry Pi with Adafruit_DHT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This i a Ruby on Rails 5 application that allows users to create their own portfolios.
 
-Things you may want to cover:
+### Features
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Checking temperature and humidity
+- Cron on every 10 minutes for checking
+- Saving in production environment to Postgresql
+- Little index page to show results
